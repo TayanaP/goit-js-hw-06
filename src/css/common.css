@@ -23,6 +23,22 @@ button {
   cursor: pointer;
 }
 
-/* .gallery {
-  display: flex
-} */
+.gallery {
+  display: flex;
+  gap: 30px;
+}
+
+.validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+.valid {
+  border-color: #4caf50;
+  border-radius: 10px;
+}
+
+.invalid {
+  border-color: #f44336;
+  border-radius: none;
+}
+

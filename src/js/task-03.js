@@ -18,7 +18,7 @@ console.log(listEl);
 
 const makeGalleryCard = ({ url, alt }) => `<li class="gallery-item">
       <a href="#">
-        <img src="${url}" alt="${alt}">
+        <img src="${url}" alt="${alt}" width=500px height=100%>
       </a>
     </li>`;
 console.log(makeGalleryCard);
