@@ -5,9 +5,9 @@ console.log(nameOutputEl);
 
 const getInputValue = (event) => {
   if (nameInputEl.value === "") {
-    nameOutputEl.textContent === "Anonymous";
+    nameOutputEl.textContent = `Anonymous`;
   } else {
-    nameOutputEl.textContent = event.currentTarget.value;
+    nameOutputEl.textContent = nameInputEl.value;
   }
 };
 
